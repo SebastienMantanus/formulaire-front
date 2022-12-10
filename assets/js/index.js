@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
   console.log("document loaded");
 
-  document.querySelector("#MailForm").addEventListener("submit", async (e) => {
+  document.querySelector("#MailForm").addEventListener("submit", (e) => {
     e.preventDefault();
 
     const data = {
@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     console.log(data);
 
-    const response = await axios.post("http://localhost:3000/form", data);
+    // const response = await axios.post("http://localhost:3000/form", data);
     console.log(response);
   });
 });

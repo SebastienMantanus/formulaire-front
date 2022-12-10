@@ -5,6 +5,9 @@ body {
   background-color: #7359dd;
   font-family: "Roboto", sans-serif;
 }
+.center {
+  text-align: center;
+}
 
 h1 {
   font-size: 22px;
